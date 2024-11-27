@@ -1,3 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Homepage (Single Page Website) -->
+  <url>
+    <loc>https://mywebsite-25aa.onrender.com/</loc> <!-- Replace with your actual GitHub Pages URL -->
+    <lastmod>2024-11-27</lastmod> <!-- Use the last modified date of your page -->
+    <changefreq>weekly</changefreq> <!-- Adjust based on how often your content changes -->
+    <priority>1.0</priority> <!-- Highest priority as this is the main page -->
+  </url>
+
 </urlset>
