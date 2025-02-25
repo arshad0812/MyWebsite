@@ -622,10 +622,17 @@ body.nav-active { overflow: hidden; }
 .footer .container{ 
   position: relative;
   padding-block: 40px;
-  left:-50px;
+  transform: translateX(-50%,-50%);
+  justify-content: center;
+  align-items: center;
+  align-content: center;
  }
 
 .copyright { 
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  text-align: center;
   padding-inline: auto;
   margin-block-end: 12px;
   margin-inline:auto;
@@ -643,6 +650,33 @@ body.nav-active { overflow: hidden; }
 .footer .social-link {
   color: var(--charcoal); }
 
+
+
+
+/*-----------------------------------*\
+  #BACK TO TOP
+\*-----------------------------------*/
+
+.back-top-btn{
+  position:fixed;
+  bottom:20px;
+  right:40px;
+  background-color: var(--cinnamon-satin);
+  color: white;
+  font-size: 20px;
+  padding: 11px;
+  border-radius: 50%;
+  border: 2px solid var(--battleship-gray);
+  z-index:3;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.back-top-btn.active{
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(-10px);
+}
 
 
 
@@ -894,6 +928,12 @@ body.nav-active { overflow: hidden; }
    */
 
   .contact-card { gap: 150px; }
+
+  .footer .container{
+    padding-inline: 90px;
+    padding-inline-start: 0;
+    margin-inline:auto;
+  }
 
 }
 
