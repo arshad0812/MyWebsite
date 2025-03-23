@@ -672,6 +672,16 @@ textarea.input-field {
   color: var(--charcoal); }
 
 
+  .details { 
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    text-align: center;
+    padding-inline: auto;
+    margin-block-end: 12px;
+    margin-inline:auto;
+  }
+  
 
 
 /*-----------------------------------*\
@@ -787,6 +797,14 @@ textarea.input-field {
     padding-inline-start: 12px;
     margin-block-start:auto; 
   }
+
+  .details
+  {
+    all: unset;  
+    padding-inline-start: 12px;
+    margin-block-start:auto; 
+  }
+
 
 }
 
