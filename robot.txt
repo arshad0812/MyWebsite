@@ -1,4 +1,3 @@
 User-agent: *
-Disallow: /private/
 Allow: /
 Sitemap: https://arshad0812.github.io/sitemap.xml
