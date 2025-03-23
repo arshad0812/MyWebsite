@@ -956,6 +956,12 @@ textarea.input-field {
     margin-inline:auto;
   }
 
+  .details{
+    display: flex;
+    gap:25px;
+  }
+  
+
 }
 
 
@@ -966,7 +972,8 @@ textarea.input-field {
 
 @media(min-width:1400px){
   .container,
-  .header { max-width: 1290px; }
+  .header { max-width: 1290px;
+ }
 
     /**
    * HERO
@@ -984,5 +991,8 @@ textarea.input-field {
 
    .about .grid-list { gap: 60px; }
  
-
+   .details{
+    display: flex;
+    gap:25px;
+  }
 }
