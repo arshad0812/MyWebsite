@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://iarshad2000.onrender.com/sitemap.xml
